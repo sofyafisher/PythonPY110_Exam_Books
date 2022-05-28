@@ -1,13 +1,28 @@
 {
-    "model": "shop_final.book",
-    "pk": "",
-    "fields": {
-        "title": "Проблемы и их решение",
-        "year": 852,
-        "pages": 120,
-        "isbn13": "978-0-411-57815-2",
-        "rating": 1.0,
-        "price": 18382.6,
-        "author": "Levi Durham, Karen Grimes, Robert Dunn"
+    "1": {
+        "model": "shop_final.book",
+        "pk": 1,
+        "fields": {
+            "title": "РЎРїСЂР°РІРѕС‡РЅРёРє РґР»СЏ РІСЃРµС…",
+            "year": 128,
+            "pages": 442,
+            "isbn13": "978-1-04-876475-8",
+            "rating": 4.7,
+            "price": 3487.66,
+            "author": "Susan Wagner, Peter Montgomery"
+        }
+    },
+    "2": {
+        "model": "shop_final.book",
+        "pk": 2,
+        "fields": {
+            "title": "РџСЂРѕР±Р»РµРјС‹ Рё РёС… СЂРµС€РµРЅРёРµ",
+            "year": 830,
+            "pages": 9,
+            "isbn13": "978-0-411-57815-2",
+            "rating": 1.96,
+            "price": 2399.67,
+            "author": "Levi Durham, Karen Grimes, Robert Dunn"
+        }
     }
 }
