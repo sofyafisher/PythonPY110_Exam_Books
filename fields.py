@@ -1,9 +1,11 @@
 import random
 from faker import Faker
+
 fake = Faker()
 Faker.seed(0)
 
-def author_gen():
+
+def author_gen() -> str:
     lst_ = []
     amount = random.randint(1, 3)
     for _ in range(amount):
@@ -11,7 +13,7 @@ def author_gen():
     return ", ".join(lst_)
 
 
-def title():
+def title() -> str:
     lst_ = []
     filename = "books.txt"
     with open(filename, "r", encoding="utf-8") as f:
@@ -20,7 +22,8 @@ def title():
             lst_.append(line)
     return random.choice(lst_)
 
-def other_fields():
+
+def other_fields() -> dict:
     fields = {'title': title(),
               'year': random.randint(0, 2022),
               "pages": random.randint(0, 700),
