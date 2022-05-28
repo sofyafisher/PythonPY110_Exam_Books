@@ -1,0 +1,13 @@
+{
+    "model": "shop_final.book",
+    "pk": "",
+    "fields": {
+        "title": "Проблемы и их решение",
+        "year": 852,
+        "pages": 120,
+        "isbn13": "978-0-411-57815-2",
+        "rating": 1.0,
+        "price": 18382.6,
+        "author": "Levi Durham, Karen Grimes, Robert Dunn"
+    }
+}
