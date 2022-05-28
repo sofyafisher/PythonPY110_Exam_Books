@@ -6,6 +6,7 @@ Faker.seed(0)
 
 
 def author_gen() -> str:
+    """Возвращает случайное количество (от 1 до 3) случайных имен"""
     lst_ = []
     amount = random.randint(1, 3)
     for _ in range(amount):
@@ -14,6 +15,7 @@ def author_gen() -> str:
 
 
 def title() -> str:
+    """Возвращает случайную строку из файла books.txt"""
     lst_ = []
     filename = "books.txt"
     with open(filename, "r", encoding="utf-8") as f:
@@ -24,6 +26,7 @@ def title() -> str:
 
 
 def other_fields() -> dict:
+    """Добавляет в словарь fields пару ключ-случайно сгенерированное значение """
     fields = {'title': title(),
               'year': random.randint(0, 2022),
               "pages": random.randint(0, 700),

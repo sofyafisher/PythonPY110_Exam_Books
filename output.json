@@ -1,0 +1,67 @@
+{
+    "1": {
+        "model": "shop_final.book",
+        "pk": 1,
+        "fields": {
+            "title": "Справочник для всех",
+            "year": 1652,
+            "pages": 294,
+            "isbn13": "978-1-04-876475-8",
+            "rating": 1.09,
+            "price": 11975.36,
+            "author": "Susan Wagner, Peter Montgomery"
+        }
+    },
+    "2": {
+        "model": "shop_final.book",
+        "pk": 2,
+        "fields": {
+            "title": "Книга первая",
+            "year": 1363,
+            "pages": 46,
+            "isbn13": "978-0-411-57815-2",
+            "rating": 0.04,
+            "price": 20341.21,
+            "author": "Levi Durham, Karen Grimes, Robert Dunn"
+        }
+    },
+    "3": {
+        "model": "shop_final.book",
+        "pk": 3,
+        "fields": {
+            "title": "Книга первая",
+            "year": 1191,
+            "pages": 87,
+            "isbn13": "978-0-609-75351-4",
+            "rating": 2.98,
+            "price": 9037.4,
+            "author": "Keith Allen, Regina West"
+        }
+    },
+    "4": {
+        "model": "shop_final.book",
+        "pk": 4,
+        "fields": {
+            "title": "Книга про вторник",
+            "year": 1137,
+            "pages": 193,
+            "isbn13": "978-1-871484-18-2",
+            "rating": 0.28,
+            "price": 14472.18,
+            "author": "Thomas Harris, Kimberly Roberts"
+        }
+    },
+    "5": {
+        "model": "shop_final.book",
+        "pk": 5,
+        "fields": {
+            "title": "Книга про среду",
+            "year": 1152,
+            "pages": 602,
+            "isbn13": "978-1-59342-320-9",
+            "rating": 0.96,
+            "price": 20048.82,
+            "author": "Mary Alvarez, Peter Mcdowell, Sarah Villanueva"
+        }
+    }
+}

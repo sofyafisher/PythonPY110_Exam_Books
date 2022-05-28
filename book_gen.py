@@ -7,6 +7,7 @@ OUTPUT_FILE = "output.json"
 
 
 def book_gen(amount) -> dict:
+    """Добавляет в словарь ключ и значение: модель, количество добавлений и сгенерированный словарь"""
     d = {}
     for i in range(1, amount + 1):
         book_dict = {'model': MODEL,
@@ -17,5 +18,6 @@ def book_gen(amount) -> dict:
 
 
 def to_json_file(g) -> json:
+    """Сохраняет словарь в файл json"""
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(g, f, indent=4, ensure_ascii=False)
